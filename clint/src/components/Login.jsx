@@ -41,7 +41,7 @@ const Login = () => {
                     <div className=" mb-4">
                         <label className='  mr-2'>UserName:</label>
                         <input
-                        className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                        className=' bg-orange-400 shadow-orange-800 outline-none shadow-md rounded-xl p-2'
                             type="text"
                             name="username"
                             value={formData.username}
@@ -52,7 +52,7 @@ const Login = () => {
                     <div className="">
                         <label className='mr-3'>Password:</label>
                         <input
-                         className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                         className=' bg-orange-400 shadow-orange-800 outline-none shadow-md rounded-xl p-2'
                             type="password"
                             name="password"
                             value={formData.password}

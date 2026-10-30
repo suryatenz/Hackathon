@@ -41,7 +41,7 @@ const Registration = () => {
                     <div className=' mb-2'>
                         <label className=' mr-10'>Name:</label>
                         <input
-                         className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                         className=' bg-orange-400 shadow-orange-800 outline-none shadow-md rounded-xl p-2'
                             type="text"
                             name="name"
                             value={formData.name}
@@ -52,7 +52,7 @@ const Registration = () => {
                     <div className=' mb-2'>
                         <label  className=' mr-10'>Email:</label>
                         <input
-                         className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                         className=' bg-orange-400 shadow-orange-800 outline-none shadow-md rounded-xl p-2'
                             type='email'
                             name="email"
                             value={formData.email}
@@ -63,7 +63,7 @@ const Registration = () => {
                     <div className=' mb-3'>
                         <label  className=' mr-2'>Username:</label>
                         <input
-                         className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                         className=' bg-orange-400 shadow-orange-800  outline-none shadow-md rounded-xl p-2'
                             type="text"
                             name="username"
                             value={formData.username}
@@ -74,7 +74,7 @@ const Registration = () => {
                     <div className=' mb-2'>
                         <label  className=' mr-4'>Password:</label>
                         <input
-                         className=' bg-orange-400 shadow-orange-800 shadow-md rounded-xl p-2'
+                         className=' bg-orange-400 shadow-orange-800  outline-none shadow-md rounded-xl p-2'
                             type="password"
                             name="password"
                             value={formData.password}

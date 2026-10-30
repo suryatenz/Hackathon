@@ -6,6 +6,7 @@ import Upload from './components/Upload';
 import Login from './components/Login';
 import Registration from './components/Registration';
 import Data from './components/Data';
+import Find from './components/Find';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Registration/>}/>
           <Route path='/home' element={<Data/>}/>
-        </Routes>
+          <Route path='/founder' element={<Find/>}/>
+        </Routes> 
       </Router>
     </>
   )

@@ -10,6 +10,9 @@ const Data = () => {
     const handlenav = () => {
         navigate('/profile')
     }
+    const handlenavi=()=>{
+        navigate('/founder')
+    }
 
 
     return (
@@ -24,7 +27,7 @@ const Data = () => {
                             <p className=' text-slate-100 mt-6 ml-16 text-xl'>Search Tutor</p>
                         </div>
                         <div className=" ml-2">
-                            <p className=' text-slate-100 mt-6 ml-3 text-xl'>Search Finantial Support</p>
+                            <p className=' text-slate-100 mt-6 ml-3 text-xl cursor-pointer' onClick={handlenavi} >Search Finantial Support</p>
                         </div>
                         <div className=" ml-2">
                             <p className=' text-slate-100 mt-6 ml-14 text-xl'>Create Content</p>
